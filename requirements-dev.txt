@@ -1,2 +1,17 @@
+# Dragon Ball RPG Bot — development dependencies
+# Install: pip install -r requirements.dev.txt
+# NOT required to run the bot — only for editing/debugging.
+
 -r requirements.txt
-pytest>=8
+
+# Code quality
+black==24.3.0
+flake8==7.0.0
+isort==5.13.2
+
+# Testing
+pytest==8.1.1
+pytest-asyncio==0.23.6
+
+# Type checking (optional)
+mypy==1.9.0
